@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Algorithms_SwiftUI_Combine_SwiftApp: App {
+    @StateObject private var dataModel = DataModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(dataModel)
         }
     }
 }
