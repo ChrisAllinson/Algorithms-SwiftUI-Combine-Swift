@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565349C02B35AFE7001B6A45 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 565349BF2B35AFE7001B6A45 /* Localizable.xcstrings */; };
+		565349C52B35C224001B6A45 /* FactorialIterationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565349C42B35C224001B6A45 /* FactorialIterationViewModel.swift */; };
+		565349CB2B35C722001B6A45 /* FactorialRecursionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565349CA2B35C722001B6A45 /* FactorialRecursionView.swift */; };
+		565349CD2B35C756001B6A45 /* FactorialRecursionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565349CC2B35C756001B6A45 /* FactorialRecursionViewModel.swift */; };
 		568E51122B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E51112B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift */; };
 		568E51142B3535CB00FFAD03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E51132B3535CB00FFAD03 /* ContentView.swift */; };
 		568E51162B3535CD00FFAD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568E51152B3535CD00FFAD03 /* Assets.xcassets */; };
@@ -14,6 +18,11 @@
 		568E51232B3535CD00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E51222B3535CD00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftTests.swift */; };
 		568E512D2B3535CD00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E512C2B3535CD00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftUITests.swift */; };
 		568E512F2B3535CD00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E512E2B3535CD00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftUITestsLaunchTests.swift */; };
+		568E51792B3550D300FFAD03 /* ListAlgorithmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E51782B3550D300FFAD03 /* ListAlgorithmsView.swift */; };
+		568E517B2B35522700FFAD03 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E517A2B35522700FFAD03 /* DataModel.swift */; };
+		568E517E2B3558A700FFAD03 /* FactorialIterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E517D2B3558A700FFAD03 /* FactorialIterationView.swift */; };
+		56BC9F192B36C028007C6442 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC9F182B36C028007C6442 /* Algorithm.swift */; };
+		56BC9F1B2B36C1D9007C6442 /* ListAlgorithmsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC9F1A2B36C1D9007C6442 /* ListAlgorithmsRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		565349BF2B35AFE7001B6A45 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		565349C42B35C224001B6A45 /* FactorialIterationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialIterationViewModel.swift; sourceTree = "<group>"; };
+		565349CA2B35C722001B6A45 /* FactorialRecursionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialRecursionView.swift; sourceTree = "<group>"; };
+		565349CC2B35C756001B6A45 /* FactorialRecursionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialRecursionViewModel.swift; sourceTree = "<group>"; };
 		568E510E2B3535CB00FFAD03 /* Algorithms-SwiftUI-Combine-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithms-SwiftUI-Combine-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		568E51112B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms_SwiftUI_Combine_SwiftApp.swift; sourceTree = "<group>"; };
 		568E51132B3535CB00FFAD03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,11 @@
 		568E51282B3535CD00FFAD03 /* Algorithms-SwiftUI-Combine-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithms-SwiftUI-Combine-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		568E512C2B3535CD00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms_SwiftUI_Combine_SwiftUITests.swift; sourceTree = "<group>"; };
 		568E512E2B3535CD00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms_SwiftUI_Combine_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		568E51782B3550D300FFAD03 /* ListAlgorithmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAlgorithmsView.swift; sourceTree = "<group>"; };
+		568E517A2B35522700FFAD03 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		568E517D2B3558A700FFAD03 /* FactorialIterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialIterationView.swift; sourceTree = "<group>"; };
+		56BC9F182B36C028007C6442 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		56BC9F1A2B36C1D9007C6442 /* ListAlgorithmsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAlgorithmsRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		565349C32B35B521001B6A45 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				568E51112B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift */,
+				568E51132B3535CB00FFAD03 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		565349C62B35C234001B6A45 /* Factorial */ = {
+			isa = PBXGroup;
+			children = (
+				565349C82B35C6B6001B6A45 /* Iteration */,
+				565349C92B35C6C2001B6A45 /* Recursion */,
+			);
+			path = Factorial;
+			sourceTree = "<group>";
+		};
+		565349C82B35C6B6001B6A45 /* Iteration */ = {
+			isa = PBXGroup;
+			children = (
+				568E517D2B3558A700FFAD03 /* FactorialIterationView.swift */,
+				565349C42B35C224001B6A45 /* FactorialIterationViewModel.swift */,
+			);
+			path = Iteration;
+			sourceTree = "<group>";
+		};
+		565349C92B35C6C2001B6A45 /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				565349CA2B35C722001B6A45 /* FactorialRecursionView.swift */,
+				565349CC2B35C756001B6A45 /* FactorialRecursionViewModel.swift */,
+			);
+			path = Recursion;
+			sourceTree = "<group>";
+		};
 		568E51052B3535CB00FFAD03 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +148,12 @@
 		568E51102B3535CB00FFAD03 /* Algorithms-SwiftUI-Combine-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				568E51112B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift */,
-				568E51132B3535CB00FFAD03 /* ContentView.swift */,
+				565349C32B35B521001B6A45 /* App */,
+				568E51772B3550AD00FFAD03 /* ListAlgorithms */,
+				568E517C2B35588000FFAD03 /* Algorithms */,
+				56BC9F172B36C007007C6442 /* Model */,
 				568E51152B3535CD00FFAD03 /* Assets.xcassets */,
+				565349BF2B35AFE7001B6A45 /* Localizable.xcstrings */,
 				568E51172B3535CD00FFAD03 /* Preview Content */,
 			);
 			path = "Algorithms-SwiftUI-Combine-Swift";
@@ -125,6 +182,32 @@
 				568E512E2B3535CD00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftUITestsLaunchTests.swift */,
 			);
 			path = "Algorithms-SwiftUI-Combine-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		568E51772B3550AD00FFAD03 /* ListAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				568E51782B3550D300FFAD03 /* ListAlgorithmsView.swift */,
+			);
+			path = ListAlgorithms;
+			sourceTree = "<group>";
+		};
+		568E517C2B35588000FFAD03 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				565349C62B35C234001B6A45 /* Factorial */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		56BC9F172B36C007007C6442 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56BC9F182B36C028007C6442 /* Algorithm.swift */,
+				56BC9F1A2B36C1D9007C6442 /* ListAlgorithmsRow.swift */,
+				568E517A2B35522700FFAD03 /* DataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +296,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 568E51052B3535CB00FFAD03;
 			productRefGroup = 568E510F2B3535CB00FFAD03 /* Products */;
@@ -233,6 +317,7 @@
 			files = (
 				568E51192B3535CD00FFAD03 /* Preview Assets.xcassets in Resources */,
 				568E51162B3535CD00FFAD03 /* Assets.xcassets in Resources */,
+				565349C02B35AFE7001B6A45 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +342,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BC9F1B2B36C1D9007C6442 /* ListAlgorithmsRow.swift in Sources */,
 				568E51142B3535CB00FFAD03 /* ContentView.swift in Sources */,
+				56BC9F192B36C028007C6442 /* Algorithm.swift in Sources */,
+				565349CD2B35C756001B6A45 /* FactorialRecursionViewModel.swift in Sources */,
+				565349CB2B35C722001B6A45 /* FactorialRecursionView.swift in Sources */,
+				568E517B2B35522700FFAD03 /* DataModel.swift in Sources */,
+				568E517E2B3558A700FFAD03 /* FactorialIterationView.swift in Sources */,
 				568E51122B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift in Sources */,
+				565349C52B35C224001B6A45 /* FactorialIterationViewModel.swift in Sources */,
+				568E51792B3550D300FFAD03 /* ListAlgorithmsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
