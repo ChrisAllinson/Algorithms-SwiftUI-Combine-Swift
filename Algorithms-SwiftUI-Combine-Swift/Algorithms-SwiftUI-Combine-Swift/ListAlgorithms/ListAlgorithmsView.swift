@@ -22,6 +22,8 @@ struct ListAlgorithmsView: View {
                             FactorialRecursionView()
                         case .fibonacci:
                             FibonacciView()
+                        case .binarySearch:
+                            BinarySearchView()
                         }
                     } label: {
                         Text("\(algorithmRow.type.displayName)")
