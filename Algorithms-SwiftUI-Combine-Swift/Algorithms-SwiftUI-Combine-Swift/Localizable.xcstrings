@@ -52,6 +52,40 @@
         }
       }
     },
+    "Fibonacci" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fibonacci"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fibonacci"
+          }
+        }
+      }
+    },
+    "Fibonacci_Member" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fibonacci member"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membre de Fibonacci"
+          }
+        }
+      }
+    },
     "Select_A_Value" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -65,6 +99,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sélectionnez une valeur :"
+          }
+        }
+      }
+    },
+    "Selected_Value" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selected value"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valeur sélectionnée"
           }
         }
       }

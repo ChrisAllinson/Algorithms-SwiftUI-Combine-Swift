@@ -11,6 +11,8 @@
 		565349C52B35C224001B6A45 /* FactorialIterationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565349C42B35C224001B6A45 /* FactorialIterationViewModel.swift */; };
 		565349CB2B35C722001B6A45 /* FactorialRecursionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565349CA2B35C722001B6A45 /* FactorialRecursionView.swift */; };
 		565349CD2B35C756001B6A45 /* FactorialRecursionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565349CC2B35C756001B6A45 /* FactorialRecursionViewModel.swift */; };
+		56674B132B38074800548035 /* FibonacciView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56674B122B38074800548035 /* FibonacciView.swift */; };
+		56674B152B38075800548035 /* FibonacciViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56674B142B38075800548035 /* FibonacciViewModel.swift */; };
 		568E51122B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E51112B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift */; };
 		568E51142B3535CB00FFAD03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E51132B3535CB00FFAD03 /* ContentView.swift */; };
 		568E51162B3535CD00FFAD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568E51152B3535CD00FFAD03 /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 		565349C42B35C224001B6A45 /* FactorialIterationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialIterationViewModel.swift; sourceTree = "<group>"; };
 		565349CA2B35C722001B6A45 /* FactorialRecursionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialRecursionView.swift; sourceTree = "<group>"; };
 		565349CC2B35C756001B6A45 /* FactorialRecursionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialRecursionViewModel.swift; sourceTree = "<group>"; };
+		56674B122B38074800548035 /* FibonacciView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciView.swift; sourceTree = "<group>"; };
+		56674B142B38075800548035 /* FibonacciViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciViewModel.swift; sourceTree = "<group>"; };
 		568E510E2B3535CB00FFAD03 /* Algorithms-SwiftUI-Combine-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithms-SwiftUI-Combine-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		568E51112B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms_SwiftUI_Combine_SwiftApp.swift; sourceTree = "<group>"; };
 		568E51132B3535CB00FFAD03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +129,15 @@
 			path = Recursion;
 			sourceTree = "<group>";
 		};
+		56674B112B38072B00548035 /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				56674B122B38074800548035 /* FibonacciView.swift */,
+				56674B142B38075800548035 /* FibonacciViewModel.swift */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
 		568E51052B3535CB00FFAD03 = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				565349C62B35C234001B6A45 /* Factorial */,
+				56674B112B38072B00548035 /* Fibonacci */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -343,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56BC9F1B2B36C1D9007C6442 /* ListAlgorithmsRow.swift in Sources */,
+				56674B152B38075800548035 /* FibonacciViewModel.swift in Sources */,
 				568E51142B3535CB00FFAD03 /* ContentView.swift in Sources */,
 				56BC9F192B36C028007C6442 /* Algorithm.swift in Sources */,
 				565349CD2B35C756001B6A45 /* FactorialRecursionViewModel.swift in Sources */,
@@ -352,6 +367,7 @@
 				568E51122B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift in Sources */,
 				565349C52B35C224001B6A45 /* FactorialIterationViewModel.swift in Sources */,
 				568E51792B3550D300FFAD03 /* ListAlgorithmsView.swift in Sources */,
+				56674B132B38074800548035 /* FibonacciView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

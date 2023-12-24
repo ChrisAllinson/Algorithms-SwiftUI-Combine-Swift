@@ -29,6 +29,9 @@ struct FactorialIterationView: View {
     }
 }
 
-#Preview {
-    FactorialIterationView()
+struct FactorialIterationView_Previews: PreviewProvider {
+    static var previews: some View {
+        FactorialIterationView()
+            .environment(\.locale, .init(identifier: "en"))
+    }
 }
