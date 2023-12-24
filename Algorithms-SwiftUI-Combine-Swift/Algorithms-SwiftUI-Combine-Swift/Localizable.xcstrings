@@ -1,6 +1,33 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "=" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "="
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "="
+          }
+        }
+      }
+    },
     "Algorithms" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -48,6 +75,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Base de données :"
+          }
+        }
+      }
+    },
+    "Enter_Value" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a value:"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrez une valeur :"
           }
         }
       }
@@ -116,6 +160,57 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Membre de Fibonacci"
+          }
+        }
+      }
+    },
+    "Reverse_String_Simple" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reverse String - Simple"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaîne inversée - Simple"
+          }
+        }
+      }
+    },
+    "Reverse_String_Using_Array" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reverse String - Using Array"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaîne inversée - Utiliser un tableau"
+          }
+        }
+      }
+    },
+    "Reversed_String" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reversed string"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaîne inversée"
           }
         }
       }

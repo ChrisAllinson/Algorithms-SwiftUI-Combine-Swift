@@ -27,6 +27,10 @@
 		56B996052B3821AD00438BE4 /* BinarySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B996042B3821AD00438BE4 /* BinarySearchViewModel.swift */; };
 		56BC9F192B36C028007C6442 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC9F182B36C028007C6442 /* Algorithm.swift */; };
 		56BC9F1B2B36C1D9007C6442 /* ListAlgorithmsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC9F1A2B36C1D9007C6442 /* ListAlgorithmsRow.swift */; };
+		56F72B562B38844D00A04B7E /* ReverseStringSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F72B4E2B38755600A04B7E /* ReverseStringSimpleView.swift */; };
+		56F72B572B38845900A04B7E /* ReverseStringSimpleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F72B502B38756500A04B7E /* ReverseStringSimpleViewModel.swift */; };
+		56F72B582B38845D00A04B7E /* ReverseStringUsingArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F72B522B387F3500A04B7E /* ReverseStringUsingArrayView.swift */; };
+		56F72B592B38846000A04B7E /* ReverseStringUsingArrayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F72B542B387F4000A04B7E /* ReverseStringUsingArrayViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,10 @@
 		56B996042B3821AD00438BE4 /* BinarySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewModel.swift; sourceTree = "<group>"; };
 		56BC9F182B36C028007C6442 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		56BC9F1A2B36C1D9007C6442 /* ListAlgorithmsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAlgorithmsRow.swift; sourceTree = "<group>"; };
+		56F72B4E2B38755600A04B7E /* ReverseStringSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringSimpleView.swift; sourceTree = "<group>"; };
+		56F72B502B38756500A04B7E /* ReverseStringSimpleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringSimpleViewModel.swift; sourceTree = "<group>"; };
+		56F72B522B387F3500A04B7E /* ReverseStringUsingArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringUsingArrayView.swift; sourceTree = "<group>"; };
+		56F72B542B387F4000A04B7E /* ReverseStringUsingArrayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringUsingArrayViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +223,7 @@
 				565349C62B35C234001B6A45 /* Factorial */,
 				56674B112B38072B00548035 /* Fibonacci */,
 				56B996012B38214A00438BE4 /* BinarySearch */,
+				56F72B4B2B38752D00A04B7E /* ReverseString */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -236,6 +245,33 @@
 				568E517A2B35522700FFAD03 /* DataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		56F72B4B2B38752D00A04B7E /* ReverseString */ = {
+			isa = PBXGroup;
+			children = (
+				56F72B4C2B38753800A04B7E /* Simple */,
+				56F72B4D2B38753E00A04B7E /* UsingArray */,
+			);
+			path = ReverseString;
+			sourceTree = "<group>";
+		};
+		56F72B4C2B38753800A04B7E /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				56F72B4E2B38755600A04B7E /* ReverseStringSimpleView.swift */,
+				56F72B502B38756500A04B7E /* ReverseStringSimpleViewModel.swift */,
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
+		56F72B4D2B38753E00A04B7E /* UsingArray */ = {
+			isa = PBXGroup;
+			children = (
+				56F72B522B387F3500A04B7E /* ReverseStringUsingArrayView.swift */,
+				56F72B542B387F4000A04B7E /* ReverseStringUsingArrayViewModel.swift */,
+			);
+			path = UsingArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,6 +406,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F72B592B38846000A04B7E /* ReverseStringUsingArrayViewModel.swift in Sources */,
+				56F72B582B38845D00A04B7E /* ReverseStringUsingArrayView.swift in Sources */,
+				56F72B572B38845900A04B7E /* ReverseStringSimpleViewModel.swift in Sources */,
+				56F72B562B38844D00A04B7E /* ReverseStringSimpleView.swift in Sources */,
 				56BC9F1B2B36C1D9007C6442 /* ListAlgorithmsRow.swift in Sources */,
 				56B996032B38218900438BE4 /* BinarySearchView.swift in Sources */,
 				56674B152B38075800548035 /* FibonacciViewModel.swift in Sources */,
