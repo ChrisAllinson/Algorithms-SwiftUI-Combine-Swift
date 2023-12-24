@@ -14,6 +14,7 @@ final class DataModel: ObservableObject {
     
     @Published var listAlgorithmsRows: [ListAlgorithmsRow] = [
         ListAlgorithmsRow(type: .factorialIteration),
-        ListAlgorithmsRow(type: .factorialRecursion)
+        ListAlgorithmsRow(type: .factorialRecursion),
+        ListAlgorithmsRow(type: .fibonacci)
     ]
 }

@@ -29,6 +29,9 @@ struct FactorialRecursionView: View {
     }
 }
 
-#Preview {
-    FactorialRecursionView()
+struct FactorialRecursionView_Previews: PreviewProvider {
+    static var previews: some View {
+        FactorialRecursionView()
+            .environment(\.locale, .init(identifier: "en"))
+    }
 }

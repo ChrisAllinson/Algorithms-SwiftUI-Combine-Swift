@@ -20,6 +20,8 @@ struct ListAlgorithmsView: View {
                             FactorialIterationView()
                         case .factorialRecursion:
                             FactorialRecursionView()
+                        case .fibonacci:
+                            FibonacciView()
                         }
                     } label: {
                         Text("\(algorithmRow.type.displayName)")
@@ -34,7 +36,10 @@ struct ListAlgorithmsView: View {
     }
 }
 
-#Preview {
-    ListAlgorithmsView()
-        .environmentObject(DataModel())
+struct ListAlgorithmsView_Previews: PreviewProvider {
+    static var previews: some View {
+        ListAlgorithmsView()
+            .environmentObject(DataModel())
+            .environment(\.locale, .init(identifier: "en"))
+    }
 }
