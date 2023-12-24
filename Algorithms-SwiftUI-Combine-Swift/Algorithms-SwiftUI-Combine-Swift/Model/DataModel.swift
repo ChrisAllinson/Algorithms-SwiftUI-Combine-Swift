@@ -16,6 +16,8 @@ final class DataModel: ObservableObject {
         ListAlgorithmsRow(type: .factorialIteration),
         ListAlgorithmsRow(type: .factorialRecursion),
         ListAlgorithmsRow(type: .fibonacci),
-        ListAlgorithmsRow(type: .binarySearch)
+        ListAlgorithmsRow(type: .binarySearch),
+        ListAlgorithmsRow(type: .reverseStringSimple),
+        ListAlgorithmsRow(type: .reverseStringUsingArray)
     ]
 }
