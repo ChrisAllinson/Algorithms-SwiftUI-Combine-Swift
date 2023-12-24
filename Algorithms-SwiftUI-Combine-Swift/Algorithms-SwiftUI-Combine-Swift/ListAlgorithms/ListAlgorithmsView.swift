@@ -24,6 +24,10 @@ struct ListAlgorithmsView: View {
                             FibonacciView()
                         case .binarySearch:
                             BinarySearchView()
+                        case .reverseStringSimple:
+                            ReverseStringSimpleView()
+                        case .reverseStringUsingArray:
+                            ReverseStringUsingArrayView()
                         }
                     } label: {
                         Text("\(algorithmRow.type.displayName)")

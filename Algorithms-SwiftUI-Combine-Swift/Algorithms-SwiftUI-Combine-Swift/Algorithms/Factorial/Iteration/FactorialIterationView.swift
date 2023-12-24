@@ -21,7 +21,11 @@ struct FactorialIterationView: View {
                     }
                     Slider(value: $selectedValue, in: 0...10)
                 }
-                Text("\(UInt(selectedValue))! = \(viewModel.calculateFactorial(of: UInt(selectedValue)))")
+                HStack {
+                    Text("\(UInt(selectedValue))!")
+                    Text("=")
+                    Text("\(viewModel.calculateFactorial(of: UInt(selectedValue)))")
+                }
                 Spacer()
             }
             .padding(EdgeInsets(top: 0.0, leading: 16.0, bottom: 0.0, trailing: 16.0))
