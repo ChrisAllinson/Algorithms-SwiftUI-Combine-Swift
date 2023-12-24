@@ -14,11 +14,13 @@ struct FactorialRecursionView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 32) {
-                HStack {
-                    Text("Select_A_Value")
-                    Spacer()
+                VStack(spacing: 16) {
+                    HStack {
+                        Text("Select_A_Value")
+                        Spacer()
+                    }
+                    Slider(value: $selectedValue, in: 0...10)
                 }
-                Slider(value: $selectedValue, in: 0...10)
                 Text("\(UInt(selectedValue))! = \(viewModel.calculateFactorial(of: UInt(selectedValue)))")
                 Spacer()
             }
