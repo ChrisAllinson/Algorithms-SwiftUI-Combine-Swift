@@ -164,6 +164,57 @@
         }
       }
     },
+    "Is_A_Palindrome" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is a palindrome"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Est un palindrome"
+          }
+        }
+      }
+    },
+    "Palindrome_Using_Array" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palindrome - Using Array"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palindrome - Utiliser un tableau"
+          }
+        }
+      }
+    },
+    "Palindrome_Using_String" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palindrome - Using String"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palindrome - Utiliser une chaîne"
+          }
+        }
+      }
+    },
     "Reverse_String_Simple" : {
       "extractionState" : "manual",
       "localizations" : {
