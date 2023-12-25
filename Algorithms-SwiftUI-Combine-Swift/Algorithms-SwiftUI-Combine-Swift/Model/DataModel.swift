@@ -18,6 +18,8 @@ final class DataModel: ObservableObject {
         ListAlgorithmsRow(type: .fibonacci),
         ListAlgorithmsRow(type: .binarySearch),
         ListAlgorithmsRow(type: .reverseStringSimple),
-        ListAlgorithmsRow(type: .reverseStringUsingArray)
+        ListAlgorithmsRow(type: .reverseStringUsingArray),
+        ListAlgorithmsRow(type: .palindromeUsingArray),
+        ListAlgorithmsRow(type: .palindromeUsingString)
     ]
 }

@@ -27,6 +27,10 @@
 		56B996052B3821AD00438BE4 /* BinarySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B996042B3821AD00438BE4 /* BinarySearchViewModel.swift */; };
 		56BC9F192B36C028007C6442 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC9F182B36C028007C6442 /* Algorithm.swift */; };
 		56BC9F1B2B36C1D9007C6442 /* ListAlgorithmsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC9F1A2B36C1D9007C6442 /* ListAlgorithmsRow.swift */; };
+		56F6E4B72B3A263A0070A10A /* PalindromeUsingArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E4B62B3A263A0070A10A /* PalindromeUsingArrayView.swift */; };
+		56F6E4B92B3A265D0070A10A /* PalindromeUsingArrayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E4B82B3A265D0070A10A /* PalindromeUsingArrayViewModel.swift */; };
+		56F6E4BC2B3A2A0B0070A10A /* PalindromeUsingStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E4BB2B3A2A0B0070A10A /* PalindromeUsingStringView.swift */; };
+		56F6E4BE2B3A2D0E0070A10A /* PalindromeUsingStringViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6E4BD2B3A2D0E0070A10A /* PalindromeUsingStringViewModel.swift */; };
 		56F72B562B38844D00A04B7E /* ReverseStringSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F72B4E2B38755600A04B7E /* ReverseStringSimpleView.swift */; };
 		56F72B572B38845900A04B7E /* ReverseStringSimpleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F72B502B38756500A04B7E /* ReverseStringSimpleViewModel.swift */; };
 		56F72B582B38845D00A04B7E /* ReverseStringUsingArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F72B522B387F3500A04B7E /* ReverseStringUsingArrayView.swift */; };
@@ -74,6 +78,10 @@
 		56B996042B3821AD00438BE4 /* BinarySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewModel.swift; sourceTree = "<group>"; };
 		56BC9F182B36C028007C6442 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		56BC9F1A2B36C1D9007C6442 /* ListAlgorithmsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAlgorithmsRow.swift; sourceTree = "<group>"; };
+		56F6E4B62B3A263A0070A10A /* PalindromeUsingArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUsingArrayView.swift; sourceTree = "<group>"; };
+		56F6E4B82B3A265D0070A10A /* PalindromeUsingArrayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUsingArrayViewModel.swift; sourceTree = "<group>"; };
+		56F6E4BB2B3A2A0B0070A10A /* PalindromeUsingStringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUsingStringView.swift; sourceTree = "<group>"; };
+		56F6E4BD2B3A2D0E0070A10A /* PalindromeUsingStringViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUsingStringViewModel.swift; sourceTree = "<group>"; };
 		56F72B4E2B38755600A04B7E /* ReverseStringSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringSimpleView.swift; sourceTree = "<group>"; };
 		56F72B502B38756500A04B7E /* ReverseStringSimpleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringSimpleViewModel.swift; sourceTree = "<group>"; };
 		56F72B522B387F3500A04B7E /* ReverseStringUsingArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringUsingArrayView.swift; sourceTree = "<group>"; };
@@ -224,6 +232,7 @@
 				56674B112B38072B00548035 /* Fibonacci */,
 				56B996012B38214A00438BE4 /* BinarySearch */,
 				56F72B4B2B38752D00A04B7E /* ReverseString */,
+				56F6E4B42B3A259E0070A10A /* Palindrome */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -245,6 +254,33 @@
 				568E517A2B35522700FFAD03 /* DataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		56F6E4B42B3A259E0070A10A /* Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				56F6E4B52B3A25AC0070A10A /* Using Array */,
+				56F6E4BA2B3A28B10070A10A /* Using String */,
+			);
+			path = Palindrome;
+			sourceTree = "<group>";
+		};
+		56F6E4B52B3A25AC0070A10A /* Using Array */ = {
+			isa = PBXGroup;
+			children = (
+				56F6E4B62B3A263A0070A10A /* PalindromeUsingArrayView.swift */,
+				56F6E4B82B3A265D0070A10A /* PalindromeUsingArrayViewModel.swift */,
+			);
+			path = "Using Array";
+			sourceTree = "<group>";
+		};
+		56F6E4BA2B3A28B10070A10A /* Using String */ = {
+			isa = PBXGroup;
+			children = (
+				56F6E4BB2B3A2A0B0070A10A /* PalindromeUsingStringView.swift */,
+				56F6E4BD2B3A2D0E0070A10A /* PalindromeUsingStringViewModel.swift */,
+			);
+			path = "Using String";
 			sourceTree = "<group>";
 		};
 		56F72B4B2B38752D00A04B7E /* ReverseString */ = {
@@ -411,17 +447,21 @@
 				56F72B572B38845900A04B7E /* ReverseStringSimpleViewModel.swift in Sources */,
 				56F72B562B38844D00A04B7E /* ReverseStringSimpleView.swift in Sources */,
 				56BC9F1B2B36C1D9007C6442 /* ListAlgorithmsRow.swift in Sources */,
+				56F6E4B72B3A263A0070A10A /* PalindromeUsingArrayView.swift in Sources */,
+				56F6E4B92B3A265D0070A10A /* PalindromeUsingArrayViewModel.swift in Sources */,
 				56B996032B38218900438BE4 /* BinarySearchView.swift in Sources */,
 				56674B152B38075800548035 /* FibonacciViewModel.swift in Sources */,
 				568E51142B3535CB00FFAD03 /* ContentView.swift in Sources */,
 				56BC9F192B36C028007C6442 /* Algorithm.swift in Sources */,
 				565349CD2B35C756001B6A45 /* FactorialRecursionViewModel.swift in Sources */,
 				565349CB2B35C722001B6A45 /* FactorialRecursionView.swift in Sources */,
+				56F6E4BC2B3A2A0B0070A10A /* PalindromeUsingStringView.swift in Sources */,
 				568E517B2B35522700FFAD03 /* DataModel.swift in Sources */,
 				568E517E2B3558A700FFAD03 /* FactorialIterationView.swift in Sources */,
 				568E51122B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift in Sources */,
 				565349C52B35C224001B6A45 /* FactorialIterationViewModel.swift in Sources */,
 				56B996052B3821AD00438BE4 /* BinarySearchViewModel.swift in Sources */,
+				56F6E4BE2B3A2D0E0070A10A /* PalindromeUsingStringViewModel.swift in Sources */,
 				568E51792B3550D300FFAD03 /* ListAlgorithmsView.swift in Sources */,
 				56674B132B38074800548035 /* FibonacciView.swift in Sources */,
 			);
