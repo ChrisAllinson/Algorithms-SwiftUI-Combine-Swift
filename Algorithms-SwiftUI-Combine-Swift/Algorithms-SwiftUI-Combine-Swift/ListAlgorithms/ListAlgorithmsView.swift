@@ -28,6 +28,10 @@ struct ListAlgorithmsView: View {
                             ReverseStringSimpleView()
                         case .reverseStringUsingArray:
                             ReverseStringUsingArrayView()
+                        case .palindromeUsingArray:
+                            PalindromeUsingArrayView()
+                        case .palindromeUsingString:
+                            PalindromeUsingStringView()
                         }
                     } label: {
                         Text("\(algorithmRow.type.displayName)")
