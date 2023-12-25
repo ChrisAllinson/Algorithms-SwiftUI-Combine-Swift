@@ -21,6 +21,7 @@ final class DataModel: ObservableObject {
         ListAlgorithmsRow(type: .reverseStringUsingArray),
         ListAlgorithmsRow(type: .palindromeUsingArray),
         ListAlgorithmsRow(type: .palindromeUsingString),
-        ListAlgorithmsRow(type: .palindromes)
+        ListAlgorithmsRow(type: .palindromes),
+        ListAlgorithmsRow(type: .pascalsTriangle)
     ]
 }

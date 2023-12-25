@@ -34,6 +34,8 @@ struct ListAlgorithmsView: View {
                             PalindromeUsingStringView()
                         case .palindromes:
                             PalindromesView()
+                        case .pascalsTriangle:
+                            PascalsTriangleView()
                         }
                     } label: {
                         Text("\(algorithmRow.type.displayName)")
