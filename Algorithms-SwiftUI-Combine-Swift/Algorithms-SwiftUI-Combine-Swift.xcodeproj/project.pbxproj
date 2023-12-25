@@ -23,6 +23,8 @@
 		568E51792B3550D300FFAD03 /* ListAlgorithmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E51782B3550D300FFAD03 /* ListAlgorithmsView.swift */; };
 		568E517B2B35522700FFAD03 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E517A2B35522700FFAD03 /* DataModel.swift */; };
 		568E517E2B3558A700FFAD03 /* FactorialIterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E517D2B3558A700FFAD03 /* FactorialIterationView.swift */; };
+		56A0B61F2B3A3868000FF4D0 /* PalindromesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0B61E2B3A3868000FF4D0 /* PalindromesView.swift */; };
+		56A0B6212B3A38BB000FF4D0 /* PalindromesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0B6202B3A38BB000FF4D0 /* PalindromesViewModel.swift */; };
 		56B996032B38218900438BE4 /* BinarySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B996022B38218900438BE4 /* BinarySearchView.swift */; };
 		56B996052B3821AD00438BE4 /* BinarySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B996042B3821AD00438BE4 /* BinarySearchViewModel.swift */; };
 		56BC9F192B36C028007C6442 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC9F182B36C028007C6442 /* Algorithm.swift */; };
@@ -74,6 +76,8 @@
 		568E51782B3550D300FFAD03 /* ListAlgorithmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAlgorithmsView.swift; sourceTree = "<group>"; };
 		568E517A2B35522700FFAD03 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		568E517D2B3558A700FFAD03 /* FactorialIterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialIterationView.swift; sourceTree = "<group>"; };
+		56A0B61E2B3A3868000FF4D0 /* PalindromesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromesView.swift; sourceTree = "<group>"; };
+		56A0B6202B3A38BB000FF4D0 /* PalindromesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromesViewModel.swift; sourceTree = "<group>"; };
 		56B996022B38218900438BE4 /* BinarySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchView.swift; sourceTree = "<group>"; };
 		56B996042B3821AD00438BE4 /* BinarySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewModel.swift; sourceTree = "<group>"; };
 		56BC9F182B36C028007C6442 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
@@ -233,8 +237,18 @@
 				56B996012B38214A00438BE4 /* BinarySearch */,
 				56F72B4B2B38752D00A04B7E /* ReverseString */,
 				56F6E4B42B3A259E0070A10A /* Palindrome */,
+				56A0B61D2B3A384E000FF4D0 /* Palindromes */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		56A0B61D2B3A384E000FF4D0 /* Palindromes */ = {
+			isa = PBXGroup;
+			children = (
+				56A0B61E2B3A3868000FF4D0 /* PalindromesView.swift */,
+				56A0B6202B3A38BB000FF4D0 /* PalindromesViewModel.swift */,
+			);
+			path = Palindromes;
 			sourceTree = "<group>";
 		};
 		56B996012B38214A00438BE4 /* BinarySearch */ = {
@@ -449,6 +463,7 @@
 				56BC9F1B2B36C1D9007C6442 /* ListAlgorithmsRow.swift in Sources */,
 				56F6E4B72B3A263A0070A10A /* PalindromeUsingArrayView.swift in Sources */,
 				56F6E4B92B3A265D0070A10A /* PalindromeUsingArrayViewModel.swift in Sources */,
+				56A0B6212B3A38BB000FF4D0 /* PalindromesViewModel.swift in Sources */,
 				56B996032B38218900438BE4 /* BinarySearchView.swift in Sources */,
 				56674B152B38075800548035 /* FibonacciViewModel.swift in Sources */,
 				568E51142B3535CB00FFAD03 /* ContentView.swift in Sources */,
@@ -457,6 +472,7 @@
 				565349CB2B35C722001B6A45 /* FactorialRecursionView.swift in Sources */,
 				56F6E4BC2B3A2A0B0070A10A /* PalindromeUsingStringView.swift in Sources */,
 				568E517B2B35522700FFAD03 /* DataModel.swift in Sources */,
+				56A0B61F2B3A3868000FF4D0 /* PalindromesView.swift in Sources */,
 				568E517E2B3558A700FFAD03 /* FactorialIterationView.swift in Sources */,
 				568E51122B3535CB00FFAD03 /* Algorithms_SwiftUI_Combine_SwiftApp.swift in Sources */,
 				565349C52B35C224001B6A45 /* FactorialIterationViewModel.swift in Sources */,
