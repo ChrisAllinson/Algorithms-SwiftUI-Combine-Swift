@@ -20,6 +20,7 @@ final class DataModel: ObservableObject {
         ListAlgorithmsRow(type: .reverseStringSimple),
         ListAlgorithmsRow(type: .reverseStringUsingArray),
         ListAlgorithmsRow(type: .palindromeUsingArray),
-        ListAlgorithmsRow(type: .palindromeUsingString)
+        ListAlgorithmsRow(type: .palindromeUsingString),
+        ListAlgorithmsRow(type: .palindromes)
     ]
 }
