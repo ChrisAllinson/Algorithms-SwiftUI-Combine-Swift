@@ -11,6 +11,15 @@
         }
       }
     },
+    "%@" : {
+
+    },
+    "%llu" : {
+
+    },
+    "%llu!" : {
+
+    },
     "=" : {
       "extractionState" : "manual",
       "localizations" : {
